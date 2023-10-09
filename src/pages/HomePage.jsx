@@ -1,5 +1,6 @@
 import ImageSlider from "../components/header/ImageSlider";
 import TopBannerText from "../components/header/TopBannerText";
+import OurExpertise from "../components/homepage/OurExpertise";
 
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
 			<div>
 				<TopBannerText/>
 				<ImageSlider/>
+				<OurExpertise/>
 			</div>
 		)
 };
