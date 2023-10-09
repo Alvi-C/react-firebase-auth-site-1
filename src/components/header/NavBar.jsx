@@ -196,22 +196,34 @@ const NavBar = () => {
 										Home
 									</NavLink>
 									<NavLink
-										to='/about'
-										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
-									>
-										About us
-									</NavLink>
-									<NavLink
-										to='/services'
+										to='/service'
 										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
 									>
 										Services
 									</NavLink>
 									<NavLink
-										to='/portfolio'
+										to='/events'
 										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
 									>
-										Portfolio
+										Our Events
+									</NavLink>
+									<NavLink
+										to='/rentals'
+										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+									>
+										Rentals
+									</NavLink>
+									<NavLink
+										to='/community'
+										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+									>
+										Community
+									</NavLink>
+									<NavLink
+										to='/about'
+										className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+									>
+										About
 									</NavLink>
 									<NavLink
 										to='/contact'
@@ -222,16 +234,16 @@ const NavBar = () => {
 								</div>
 								<div className='py-6'>
 									<a
-										href='/'
+										href='/login'
 										className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-blue-600 hover:bg-blue-900'
 									>
-										Facebook
+										Login
 									</a>
 									<a
 										href='/'
 										className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-red-500 hover:bg-red-800'
 									>
-										Youtube
+										User
 									</a>
 								</div>
 							</div>

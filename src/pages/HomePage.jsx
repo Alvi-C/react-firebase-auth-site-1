@@ -1,10 +1,12 @@
-import TopBanner from "../components/header/TopBanner";
+import ImageSlider from "../components/header/ImageSlider";
+import TopBannerText from "../components/header/TopBannerText";
 
 
 const HomePage = () => {
     return (
 			<div>
-				<TopBanner/>
+				<TopBannerText/>
+				<ImageSlider/>
 			</div>
 		)
 };
