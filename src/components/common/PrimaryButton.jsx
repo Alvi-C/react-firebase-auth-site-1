@@ -3,7 +3,7 @@
 
 const PrimaryButton = ({title}) => {
     return (
-			<div className='flex justify-center mt-10'>
+			<div>
 				<div className='group relative inline-block text-sm font-medium text-yellow-300 focus:outline-none focus:ring active:text-yellow-500'>
 					<span className='absolute inset-0 translate-x-0.5 translate-y-0.5 bg-black transition-transform group-hover:translate-y-0 group-hover:translate-x-0'></span>
 

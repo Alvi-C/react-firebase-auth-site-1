@@ -10,52 +10,60 @@ import CommunityPage from '../pages/CommunityPage';
 import ContactPage from '../pages/ContactPage';
 import LogInPage from '../pages/LogInPage';
 import RegisterPage from '../pages/RegisterPage';
+import EventDetailsPage from "../pages/EventDetailsPage";
 
 
 const MyAppRouter = createBrowserRouter([
-    {
-        path: '/',
-        element: <MainLayout />,
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                path: '/',
-                element: <HomePage/>
-            },
-            {
-                path: '/about',
-                element: <AboutPage/>
-            },
-            {
-                path: '/service',
-                element: <ServicePage/>
-            },
-            {
-                path: '/events',
-                element: <EventsPage/>
-            },
-            {
-                path: '/rentals',
-                element: <RentalPage/>
-            },
-            {
-                path: '/community',
-                element: <CommunityPage/>
-            },
-            {
-                path: '/contact',
-                element: <ContactPage/>
-            },
-            {
-                path: '/login',
-                element: <LogInPage/>
-            },
-            {
-                path: '/register',
-                element: <RegisterPage/>
-            }
-        ]
-    }
+	{
+		path: '/',
+		element: <MainLayout />,
+		errorElement: <ErrorPage />,
+		children: [
+			{
+				path: '/',
+				element: <HomePage />,
+				loader: () => fetch('/eventList.json'),
+			},
+			{
+				path: '/about',
+				element: <AboutPage />,
+			},
+			{
+				path: '/service',
+				element: <ServicePage />,
+			},
+			{
+				path: '/events',
+				element: <EventsPage />,
+				loader: () => fetch('/eventList.json'),
+			},
+			{
+				path: '/events/:id',
+				element: <EventDetailsPage />,
+				loader: () => fetch('/eventList.json'),
+			},
+			{
+				path: '/rentals',
+				element: <RentalPage />,
+			},
+			{
+				path: '/community',
+				element: <CommunityPage />,
+			},
+			{
+				path: '/contact',
+				element: <ContactPage />,
+			},
+			{
+				path: '/login',
+				element: <LogInPage />,
+			},
+			{
+				path: '/register',
+				element: <RegisterPage />,
+			},
+		],
+	},
 ])
 
 export default MyAppRouter;

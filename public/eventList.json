@@ -3,16 +3,14 @@
 		"id": "1",
 		"name": "Engagement Party",
 		"image": "https://i.ibb.co/dPt7rRZ/engagement-party.jpg",
-		"desc": {
-			"short": "Beginning the journey of togetherness",
-			"long": [
-				"An engagement party marks the official announcement of a couple's intention to wed. Families and friends come together to celebrate this joyous occasion. The event might begin with the couple sharing their proposal story, followed by a toast. Décor is usually elegant, with subtle colors and flowers. Finger foods, cocktails, and a light dinner is typically served, with music setting a light-hearted and celebratory tone.",
-				"Ah, love is in the air! An engagement party is a delightful affair, a celebration of the beautiful promise two hearts have made to each other. It's a prelude to the grand symphony of a wedding, a moment when lovebirds are surrounded by family and friends, all eager to toast to their newfound journey together.",
-				"Imagine walking into a beautifully adorned venue, a setting that radiates the warmth and love of the couple. Soft, twinkling lights dance overhead, casting a romantic glow on the scene below. Tables adorned with fresh flowers, delicate candles, and elegant centerpieces beckon guests to take their seats.",
-				"The atmosphere is one of excitement and anticipation. The engaged couple, dressed in their finest, greet guests with radiant smiles and shimmering engagement rings. Friends and family members mingle, sharing stories and congratulations. Laughter fills the air as everyone recalls the couple's love story, the sweet moments that led to this beautiful commitment.",
-				"As the evening progresses, a toast is raised, and the clinking of glasses signals the beginning of heartfelt speeches and well-wishes. Friends share anecdotes, parents express their love and pride, and the engaged couple themselves may speak, their eyes filled with gratitude and love for all who have gathered."
-			]
-		},
+		"short": "Beginning the journey of togetherness",
+		"details": [
+			"An engagement party marks the official announcement of a couple's intention to wed. Families and friends come together to celebrate this joyous occasion. The event might begin with the couple sharing their proposal story, followed by a toast. Décor is usually elegant, with subtle colors and flowers. Finger foods, cocktails, and a light dinner is typically served, with music setting a light-hearted and celebratory tone.",
+			"Ah, love is in the air! An engagement party is a delightful affair, a celebration of the beautiful promise two hearts have made to each other. It's a prelude to the grand symphony of a wedding, a moment when lovebirds are surrounded by family and friends, all eager to toast to their newfound journey together.",
+			"Imagine walking into a beautifully adorned venue, a setting that radiates the warmth and love of the couple. Soft, twinkling lights dance overhead, casting a romantic glow on the scene below. Tables adorned with fresh flowers, delicate candles, and elegant centerpieces beckon guests to take their seats.",
+			"The atmosphere is one of excitement and anticipation. The engaged couple, dressed in their finest, greet guests with radiant smiles and shimmering engagement rings. Friends and family members mingle, sharing stories and congratulations. Laughter fills the air as everyone recalls the couple's love story, the sweet moments that led to this beautiful commitment.",
+			"As the evening progresses, a toast is raised, and the clinking of glasses signals the beginning of heartfelt speeches and well-wishes. Friends share anecdotes, parents express their love and pride, and the engaged couple themselves may speak, their eyes filled with gratitude and love for all who have gathered."
+		],
 		"price": "BDT 150k",
 		"accomplish": "26"
 	},
@@ -20,15 +18,13 @@
 		"id": "2",
 		"name": "Wedding Event",
 		"image": "https://i.ibb.co/9bhrmhM/wedding-event.jpg",
-		"desc": {
-			"short": "Celebrate love with grandeur and elegance",
-			"long": [
-				"A wedding is not just an event; it is a profound declaration of love, a promise of forever, and a celebration that unites two souls and their families. It is a day when dreams come true, and hearts beat as one in a symphony of love and joy.",
-				"Picture this: A sun-kissed garden with fragrant flowers in full bloom, or perhaps a grand cathedral with stained glass windows casting a colorful mosaic on the aisle. The atmosphere is charged with anticipation, and guests are seated with bated breath. The gentle strumming of a guitar or the solemn notes of an organ fill the air as the wedding ceremony begins.",
-				"The bride, radiant in her bridal gown, walks down the aisle, escorted by her proud father. The groom, standing at the altar, can't help but smile as he watches his future wife approach, a vision of beauty and grace. The exchange of vows, those heartfelt promises to love and cherish, is a moment that resonates with everyone present. The couple seals their commitment with a tender kiss, and the congregation erupts in joyous applause.",
-				"The reception that follows is a feast for the senses. Tables adorned with exquisite floral arrangements and fine china shimmer under the soft glow of twinkling fairy lights. Guests are treated to a gastronomic journey, savoring delectable dishes that range from succulent prime rib to delicate seafood. Wine glasses clink, and laughter fills the room as toasts are made in honor of the newlyweds."
-			]
-		},
+		"short": "Celebrate love with grandeur and elegance",
+		"details": [
+			"A wedding is not just an event; it is a profound declaration of love, a promise of forever, and a celebration that unites two souls and their families. It is a day when dreams come true, and hearts beat as one in a symphony of love and joy.",
+			"Picture this: A sun-kissed garden with fragrant flowers in full bloom, or perhaps a grand cathedral with stained glass windows casting a colorful mosaic on the aisle. The atmosphere is charged with anticipation, and guests are seated with bated breath. The gentle strumming of a guitar or the solemn notes of an organ fill the air as the wedding ceremony begins.",
+			"The bride, radiant in her bridal gown, walks down the aisle, escorted by her proud father. The groom, standing at the altar, can't help but smile as he watches his future wife approach, a vision of beauty and grace. The exchange of vows, those heartfelt promises to love and cherish, is a moment that resonates with everyone present. The couple seals their commitment with a tender kiss, and the congregation erupts in joyous applause.",
+			"The reception that follows is a feast for the senses. Tables adorned with exquisite floral arrangements and fine china shimmer under the soft glow of twinkling fairy lights. Guests are treated to a gastronomic journey, savoring delectable dishes that range from succulent prime rib to delicate seafood. Wine glasses clink, and laughter fills the room as toasts are made in honor of the newlyweds."
+		],
 		"price": "BDT 300k",
 		"accomplish": "35"
 	},
@@ -37,16 +33,14 @@
 		"id": "3",
 		"name": "Anniversary Party",
 		"image": "https://i.ibb.co/VBB4qgS/anniversary-party.jpg",
-		"desc": {
-			"short": "Reliving the moments of union",
-			"long": [
-				"Celebrate love, cherish memories, and toast to countless tomorrows at an Anniversary Party that radiates joy and nostalgia! This is a jubilant occasion, a milestone marking the enduring bond between two hearts. Imagine stepping into a venue aglow with golden light, adorned with photographs that trace the beautiful journey of the couple from the day they said I do.",
-				"The atmosphere is one of elegance and warmth. Tables draped in luxurious linens host centerpieces of roses, representing the timeless nature of love. Guests, impeccably dressed, converse with laughter and reminisce about the couple's journey together. A hush falls as the couple takes the stage to share their journey, their love story retold with the same fervor and affection as the day they first met.",
-				"As the evening unfolds, a live band or a talented DJ serenades the guests with melodies that capture the essence of love. A dance floor beckons, and the couple's first dance is a heartwarming moment, capturing the essence of their love story in every step.",
-				"Catering is a culinary delight, a journey of flavors that delight the senses. A gourmet feast awaits, featuring dishes that cater to every palate. The anniversary cake, often a masterpiece, stands tall as a symbol of love's sweetness, ready to be cut and shared among friends and family.",
-				"Anniversary parties are more than just celebrations; they are a tribute to enduring love and the triumph of commitment. Throughout the evening, speeches and toasts fill the air, heartfelt words that encapsulate the love and admiration everyone holds for the couple. Guests share stories, laughter, and even a few tears as they recount cherished memories and offer warm wishes for the future."
-			]
-		},
+		"short": "Reliving the moments of union and share love",
+		"details": [
+			"Celebrate love, cherish memories, and toast to countless tomorrows at an Anniversary Party that radiates joy and nostalgia! This is a jubilant occasion, a milestone marking the enduring bond between two hearts. Imagine stepping into a venue aglow with golden light, adorned with photographs that trace the beautiful journey of the couple from the day they said I do.",
+			"The atmosphere is one of elegance and warmth. Tables draped in luxurious linens host centerpieces of roses, representing the timeless nature of love. Guests, impeccably dressed, converse with laughter and reminisce about the couple's journey together. A hush falls as the couple takes the stage to share their journey, their love story retold with the same fervor and affection as the day they first met.",
+			"As the evening unfolds, a live band or a talented DJ serenades the guests with melodies that capture the essence of love. A dance floor beckons, and the couple's first dance is a heartwarming moment, capturing the essence of their love story in every step.",
+			"Catering is a culinary delight, a journey of flavors that delight the senses. A gourmet feast awaits, featuring dishes that cater to every palate. The anniversary cake, often a masterpiece, stands tall as a symbol of love's sweetness, ready to be cut and shared among friends and family.",
+			"Anniversary parties are more than just celebrations; they are a tribute to enduring love and the triumph of commitment. Throughout the evening, speeches and toasts fill the air, heartfelt words that encapsulate the love and admiration everyone holds for the couple. Guests share stories, laughter, and even a few tears as they recount cherished memories and offer warm wishes for the future."
+		],
 		"price": "BDT 100k",
 		"accomplish": "33"
 	},
@@ -55,15 +49,13 @@
 		"id": "4",
 		"name": "Birthday Party",
 		"image": "https://i.ibb.co/6DZ28qZ/birthday-party.jpg",
-		"desc": {
-			"short": "Every age deserves a celebration",
-			"long": [
-				"Birthdays are nature's way of telling us to put on our party hats and celebrate! A birthday party is a jubilant occasion, a yearly milestone that brings together family and friends to honor and cherish a person's life. It's a day when we get to be the star, where joy takes center stage, and memories are created that last a lifetime.",
-				"Picture this: a vibrant and lively atmosphere, filled with colorful decorations that reflect the personality and interests of the birthday celebrant. Balloons of every hue bob gracefully in the air, and a birthday banner shouts out a joyful greeting. The room is filled with laughter and chatter, as friends and family eagerly anticipate the festivities.",
-				"A central focus of any birthday party is, of course, the birthday cake! It sits proudly on a table, adorned with candles that are ready to be lit. As the guest of honor makes a wish and blows out the candles, everyone cheers in unison. The cake is then sliced into delicious portions, and a chorus of -Happy Birthday- fills the room as each person indulges in a sweet treat.",
-				"Games and activities abound, especially at children's birthday parties. Pin the tail on the donkey, musical chairs, and scavenger hunts keep the little ones entertained and laughing. For adults, it might be a game of charades, a karaoke sing-off, or a dance-off to their favorite tunes."
-			]
-		},
+		"short": "Every age deserves a celebration of joy and love",
+		"details": [
+			"Birthdays are nature's way of telling us to put on our party hats and celebrate! A birthday party is a jubilant occasion, a yearly milestone that brings together family and friends to honor and cherish a person's life. It's a day when we get to be the star, where joy takes center stage, and memories are created that last a lifetime.",
+			"Picture this: a vibrant and lively atmosphere, filled with colorful decorations that reflect the personality and interests of the birthday celebrant. Balloons of every hue bob gracefully in the air, and a birthday banner shouts out a joyful greeting. The room is filled with laughter and chatter, as friends and family eagerly anticipate the festivities.",
+			"A central focus of any birthday party is, of course, the birthday cake! It sits proudly on a table, adorned with candles that are ready to be lit. As the guest of honor makes a wish and blows out the candles, everyone cheers in unison. The cake is then sliced into delicious portions, and a chorus of -Happy Birthday- fills the room as each person indulges in a sweet treat.",
+			"Games and activities abound, especially at children's birthday parties. Pin the tail on the donkey, musical chairs, and scavenger hunts keep the little ones entertained and laughing. For adults, it might be a game of charades, a karaoke sing-off, or a dance-off to their favorite tunes."
+		],
 		"price": "BDT 100k",
 		"accomplish": "42"
 	},
@@ -71,17 +63,15 @@
 		"id": "5",
 		"name": "Bridal Showers",
 		"image": "https://i.ibb.co/rG1jTN2/bridal-shower.png",
-		"desc": {
-			"short": "Showering the bride with love and blessings",
-			"long": [
-				"This is a female-centric event where the bride-to-be is showered with gifts and love. The ambiance is feminine and chic, adorned with flowers, pastel shades, and often DIY crafty decorations. Games related to the bride and groom are a staple, ensuring laughter and bonding among attendees. Light snacks, tea, or champagne are commonly served.",
-				"Picture a bright, sunny afternoon filled with laughter, love, and the promise of new beginnings - that's the essence of a bridal shower. This delightful event is all about celebrating the bride-to-be, her journey of love, and the bonds of friendship and family that surround her.",
-				"The setting is often elegant and chic, a reflection of the bride's unique style and personality. It might be held in a cozy garden adorned with blossoms and fairy lights, a charming tearoom, or even in the comfort of a close friend's home, transformed into a haven of grace and beauty.",
-				"As guests arrive, they are greeted with warm smiles and perhaps a glass of sparkling champagne or a delicate tea cup filled with fragrant herbal tea. The atmosphere is a blend of excitement and nostalgia, with friends and family reuniting to share in the bride's joy.",
-				"Decorations are thoughtfully chosen to reflect the bride's tastes and preferences. Pastel color schemes, delicate flowers, and whimsical touches set the scene. Tables are adorned with elegant centerpieces, and dainty place settings create an air of sophistication.",
-				"The heart of the bridal shower is the bride herself. She arrives in an outfit that radiates happiness and anticipation, often wearing a beautiful white dress or a stylish ensemble that complements her personality. She's greeted with hugs and well-wishes, and the guests eagerly await her stories of love and adventure."
-			]
-		},
+		"short": "Showering the bride with love and blessings",
+		"details": [
+			"This is a female-centric event where the bride-to-be is showered with gifts and love. The ambiance is feminine and chic, adorned with flowers, pastel shades, and often DIY crafty decorations. Games related to the bride and groom are a staple, ensuring laughter and bonding among attendees. Light snacks, tea, or champagne are commonly served.",
+			"Picture a bright, sunny afternoon filled with laughter, love, and the promise of new beginnings - that's the essence of a bridal shower. This delightful event is all about celebrating the bride-to-be, her journey of love, and the bonds of friendship and family that surround her.",
+			"The setting is often elegant and chic, a reflection of the bride's unique style and personality. It might be held in a cozy garden adorned with blossoms and fairy lights, a charming tearoom, or even in the comfort of a close friend's home, transformed into a haven of grace and beauty.",
+			"As guests arrive, they are greeted with warm smiles and perhaps a glass of sparkling champagne or a delicate tea cup filled with fragrant herbal tea. The atmosphere is a blend of excitement and nostalgia, with friends and family reuniting to share in the bride's joy.",
+			"Decorations are thoughtfully chosen to reflect the bride's tastes and preferences. Pastel color schemes, delicate flowers, and whimsical touches set the scene. Tables are adorned with elegant centerpieces, and dainty place settings create an air of sophistication.",
+			"The heart of the bridal shower is the bride herself. She arrives in an outfit that radiates happiness and anticipation, often wearing a beautiful white dress or a stylish ensemble that complements her personality. She's greeted with hugs and well-wishes, and the guests eagerly await her stories of love and adventure."
+		],
 		"price": "BDT 80k",
 		"accomplish": "12"
 	},
@@ -90,15 +80,13 @@
 		"id": "6",
 		"name": "Baby Showers",
 		"image": "https://i.ibb.co/60RLjth/baby-shower.jpg",
-		"desc": {
-			"short": "Welcoming new beginnings",
-			"long": [
-				"A baby shower is a heartfelt and joyful celebration, a prelude to the magical journey of parenthood. Picture a scene filled with happiness, anticipation, and an overwhelming sense of love as friends and family gather to honor the expectant parents and welcome their soon-to-arrive bundle of joy.",
-				"The setting is usually adorned with delicate pastel decorations, soft hues of pink and blue, or sometimes gender-neutral colors like mint green or sunshine yellow. The atmosphere exudes warmth, with twinkle lights casting a soft glow and fluffy clouds of balloons hovering overhead. A clothesline adorned with tiny onesies and baby socks adds a charming touch, and a welcoming -Baby Shower- banner hangs proudly for all to see.",
-				"As guests arrive, they are greeted with smiles and laughter. The room is filled with excited chatter, as friends and family come together to celebrate the impending arrival of the little one.",
-				"A central focus of any baby shower is the gifts. Guests bring carefully selected presents for the baby, ranging from essential baby items like diapers, onesies, and baby blankets to more sentimental gifts such as handmade quilts and cherished baby books. The opening of these gifts is a heartwarming moment, filled with oohs and aahs as each tiny outfit or baby toy is revealed."
-			]
-		},
+		"short": "Welcoming new beginnings start celebrating",
+		"details": [
+			"A baby shower is a heartfelt and joyful celebration, a prelude to the magical journey of parenthood. Picture a scene filled with happiness, anticipation, and an overwhelming sense of love as friends and family gather to honor the expectant parents and welcome their soon-to-arrive bundle of joy.",
+			"The setting is usually adorned with delicate pastel decorations, soft hues of pink and blue, or sometimes gender-neutral colors like mint green or sunshine yellow. The atmosphere exudes warmth, with twinkle lights casting a soft glow and fluffy clouds of balloons hovering overhead. A clothesline adorned with tiny onesies and baby socks adds a charming touch, and a welcoming -Baby Shower- banner hangs proudly for all to see.",
+			"As guests arrive, they are greeted with smiles and laughter. The room is filled with excited chatter, as friends and family come together to celebrate the impending arrival of the little one.",
+			"A central focus of any baby shower is the gifts. Guests bring carefully selected presents for the baby, ranging from essential baby items like diapers, onesies, and baby blankets to more sentimental gifts such as handmade quilts and cherished baby books. The opening of these gifts is a heartwarming moment, filled with oohs and aahs as each tiny outfit or baby toy is revealed."
+		],
 		"price": "BDT 70k",
 		"accomplish": "11"
 	},
@@ -106,15 +94,13 @@
 		"id": "7",
 		"name": "Theme Party",
 		"image": "https://i.ibb.co/7kJPn6v/theme-party.png",
-		"desc": {
-			"short": "Your fantasy, our blueprint",
-			"long": [
-				"Theme parties are like stepping into a portal that transports you to a world of pure imagination. These events are an explosion of creativity, where every detail, from the decor to the costumes, follows a carefully chosen theme. Let's embark on a thrilling description of what a theme party truly entails.",
-				"Imagine you're invited to a Great Gatsby-themed soirée. As you approach the venue, you're met with the glimmer of golden lights and the faint strains of jazz music. The entrance is adorned with elegant black and gold decorations, and guests are greeted by hosts dressed as flapper girls and dapper gentlemen. Feathers and pearls are the fashion du jour, and the air is filled with an electric buzz of anticipation.",
-				"Inside, the transformation is nothing short of magical. The room is a time capsule, with Art Deco elements in every corner - geometric patterns, vintage posters, and shimmering chandeliers. Tables are adorned with elaborate centerpieces, extravagant floral arrangements, and gleaming candlesticks.",
-				"The food and drink are also in perfect harmony with the theme. Classic cocktails like martinis and champagne are served, and a buffet boasts an array of gourmet delights inspired by the Roaring Twenties. Imagine savoring oysters Rockefeller, miniature beef wellingtons, and delicate canapés, all while being serenaded by a live jazz band that keeps the dance floor alive."
-			]
-		},
+		"short": "Your fantasy, our blueprint for a theme party",
+		"details": [
+			"Theme parties are like stepping into a portal that transports you to a world of pure imagination. These events are an explosion of creativity, where every detail, from the decor to the costumes, follows a carefully chosen theme. Let's embark on a thrilling description of what a theme party truly entails.",
+			"Imagine you're invited to a Great Gatsby-themed soirée. As you approach the venue, you're met with the glimmer of golden lights and the faint strains of jazz music. The entrance is adorned with elegant black and gold decorations, and guests are greeted by hosts dressed as flapper girls and dapper gentlemen. Feathers and pearls are the fashion du jour, and the air is filled with an electric buzz of anticipation.",
+			"Inside, the transformation is nothing short of magical. The room is a time capsule, with Art Deco elements in every corner - geometric patterns, vintage posters, and shimmering chandeliers. Tables are adorned with elaborate centerpieces, extravagant floral arrangements, and gleaming candlesticks.",
+			"The food and drink are also in perfect harmony with the theme. Classic cocktails like martinis and champagne are served, and a buffet boasts an array of gourmet delights inspired by the Roaring Twenties. Imagine savoring oysters Rockefeller, miniature beef wellingtons, and delicate canapés, all while being serenaded by a live jazz band that keeps the dance floor alive."
+		],
 		"price": "BDT 200k",
 		"accomplish": "9"
 	},
@@ -123,17 +109,15 @@
 		"id": "8",
 		"name": "Bachelor Party",
 		"image": "https://i.ibb.co/RzYZZgm/bachelor-party.jpg",
-		"desc": {
-			"short": "The last hurrah before tying the knot",
-			"long": [
-				"A celebration of the groom's last days of 'singlehood,' bachelor parties can range from wild nights out to more subdued activities like camping or game nights. The event often involves surprises for the groom, maybe a trip, or hiring entertainment. Drinks and hearty meals accompany the festivities.",
-				"The stage is set for a night of epic proportions. Picture a dynamic atmosphere charged with excitement. It's a night where friends, both old and new, gather to celebrate the groom's transition from bachelorhood to married life. The energy is palpable, and the tone is set to be absolutely cheerful.",
-				"Typically, bachelor parties begin with a surprise. The groom might be blindfolded, ushered into a car, and taken to an undisclosed location where the festivities will unfold. This element of surprise adds an extra layer of excitement to the night.",
-				"As the party gets underway, expect a cascade of laughter and playful banter. Bachelor party planners often organize various activities to keep everyone entertained. These might include poker games, sports challenges, or even renting a private yacht for a night of cruising and revelry. The key is to cater the activities to the groom's preferences and ensure that everyone has a blast.",
-				"And then there's the food and drink. Bachelor parties are known for indulgence. Picture a spread of mouthwatering finger foods, sizzling barbecue, or even a gourmet feast at a high-end restaurant. Libations flow freely, with the best whiskey, cocktails, and craft beers on offer. It's a night where toasts are raised in honor of the groom, and memories are created with each clink of the glass.",
-				"As the night progresses, the music gets louder, and the dance floor becomes the epicenter of the party. Whether it's a swanky nightclub, a private rented venue, or simply a living room with a killer sound system, the dance moves get wilder, and everyone lets loose."
-			]
-		},
+		"short": "The last hurrah before tying the knot, don't miss it!",
+		"details": [
+			"A celebration of the groom's last days of 'singlehood,' bachelor parties can range from wild nights out to more subdued activities like camping or game nights. The event often involves surprises for the groom, maybe a trip, or hiring entertainment. Drinks and hearty meals accompany the festivities.",
+			"The stage is set for a night of epic proportions. Picture a dynamic atmosphere charged with excitement. It's a night where friends, both old and new, gather to celebrate the groom's transition from bachelorhood to married life. The energy is palpable, and the tone is set to be absolutely cheerful.",
+			"Typically, bachelor parties begin with a surprise. The groom might be blindfolded, ushered into a car, and taken to an undisclosed location where the festivities will unfold. This element of surprise adds an extra layer of excitement to the night.",
+			"As the party gets underway, expect a cascade of laughter and playful banter. Bachelor party planners often organize various activities to keep everyone entertained. These might include poker games, sports challenges, or even renting a private yacht for a night of cruising and revelry. The key is to cater the activities to the groom's preferences and ensure that everyone has a blast.",
+			"And then there's the food and drink. Bachelor parties are known for indulgence. Picture a spread of mouthwatering finger foods, sizzling barbecue, or even a gourmet feast at a high-end restaurant. Libations flow freely, with the best whiskey, cocktails, and craft beers on offer. It's a night where toasts are raised in honor of the groom, and memories are created with each clink of the glass.",
+			"As the night progresses, the music gets louder, and the dance floor becomes the epicenter of the party. Whether it's a swanky nightclub, a private rented venue, or simply a living room with a killer sound system, the dance moves get wilder, and everyone lets loose."
+		],
 		"price": "BDT 100k",
 		"accomplish": "7"
 	},
@@ -141,15 +125,13 @@
 		"id": "9",
 		"name": "Reunion event",
 		"image": "https://i.ibb.co/q0hcTkY/reunion-event.jpg",
-		"desc": {
-			"short": "Festive vibes and joyous reunions",
-			"long": [
-				"The air is filled with the unmistakable aroma of winter spices, and the soft glow of fairy lights welcomes guests into the Holiday Gathering Party. As you step inside, a cozy warmth envelops you, pushing away the winter's chill. Gleaming ornaments hang from the spruce tree in the corner, its star-topped pinnacle reaching out towards the ceiling. A fireplace crackles, casting dancing shadows and bathing the room in amber light.",
-				"Around a grand table, laden with festive delicacies, friends and family congregate, their voices melding in cheerful banter and joyous laughter. Plates overflow with succulent roast, creamy casseroles, and vibrant veggies, while dessert stands boast pies and puddings, their sweet aromas tempting every guest. Glasses are raised in toasts, filled with sparkling cider or rich eggnog, as memories are recounted and new stories are spun.",
-				"In the background, timeless carols play, reminding everyone of the magic and wonder of the season. Children, their eyes sparkling with excitement, playfully chase one another, their giggles echoing through the house. Wrapped gifts, in an array of colors and sizes, are piled beneath the tree, waiting for the moment of joyful unwrapping.",
-				"The Holiday Gathering Party is not just an event, but a cherished tradition, bringing loved ones together in celebration, gratitude, and hope for the future. Amidst the laughter, food, and music, the essence of the holiday season truly comes alive, reminding all of the beauty and joy of togetherness."
-			]
-		},
+		"short": "Festive vibes and joyous reunions having togetherness",
+		"details": [
+			"The air is filled with the unmistakable aroma of winter spices, and the soft glow of fairy lights welcomes guests into the Holiday Gathering Party. As you step inside, a cozy warmth envelops you, pushing away the winter's chill. Gleaming ornaments hang from the spruce tree in the corner, its star-topped pinnacle reaching out towards the ceiling. A fireplace crackles, casting dancing shadows and bathing the room in amber light.",
+			"Around a grand table, laden with festive delicacies, friends and family congregate, their voices melding in cheerful banter and joyous laughter. Plates overflow with succulent roast, creamy casseroles, and vibrant veggies, while dessert stands boast pies and puddings, their sweet aromas tempting every guest. Glasses are raised in toasts, filled with sparkling cider or rich eggnog, as memories are recounted and new stories are spun.",
+			"In the background, timeless carols play, reminding everyone of the magic and wonder of the season. Children, their eyes sparkling with excitement, playfully chase one another, their giggles echoing through the house. Wrapped gifts, in an array of colors and sizes, are piled beneath the tree, waiting for the moment of joyful unwrapping.",
+			"The Holiday Gathering Party is not just an event, but a cherished tradition, bringing loved ones together in celebration, gratitude, and hope for the future. Amidst the laughter, food, and music, the essence of the holiday season truly comes alive, reminding all of the beauty and joy of togetherness."
+		],
 		"price": "BDT 90k",
 		"accomplish": "18"
 	},
@@ -158,17 +140,15 @@
 		"id": "10",
 		"name": "Kids Party",
 		"image": "https://i.ibb.co/mGmk3r5/kids-party.jpg",
-		"desc": {
-			"short": "Where imaginations run wild",
-			"long": [
-				"A burst of colors, a cacophony of delighted shrieks, and a whirlwind of energy – welcome to the exhilarating world of a Kids Party! Picture a vibrant room, walls adorned with banners of superheroes, princesses, or perhaps the mysteries of the deep blue sea. Balloons in every hue float around, some playfully shaped like animals or magical creatures, bobbing in the air and playing peek-a-boo amidst streams of giggling children.",
-				"The center of attraction, without a doubt, is the gleaming cake, often a masterpiece inspired by the theme of the day. Whether it's a towering castle, a friendly dragon, or a treasure chest, the eager anticipation in the young eyes surrounding it is palpable. Tables nearby are laden with delightful treats – cupcakes with glittering sprinkles, rainbow-colored fruit skewers, and bowls filled to the brim with crispy chips and gooey dip.",
-				"As music fills the air – tunes that could get even the adults tapping their feet – a magician might step up, pulling rabbits out of hats or making things vanish, much to the wide-eyed wonder of the young audience. Perhaps, in another corner, there's a face painting booth where kids transform into fierce tigers, delicate butterflies, or even their favorite characters.",
-				"Games form the heartbeat of a kids' party. Be it the timeless 'Pass the Parcel', the thrilling 'Musical Chairs', or a treasure hunt that has them running around in joyful chaos, the excitement never dwindles. Winners flaunt their prizes, while others eagerly line up for the next round, determined to claim victory.",
-				"As the day unwinds, and tiny feet grow a tad weary, each child departs with a goody bag, a little treasure trove of trinkets and treats that promise to keep the magic of the day alive just a bit longer.",
-				"In essence, a kids' party is a celebration of unbridled joy, boundless imagination, and the beautiful innocence of childhood. It's where dreams take flight, and every moment is sprinkled with a little bit of magic."
-			]
-		},
+		"short": "Where imaginations run wild and no boundaries",
+		"details": [
+			"A burst of colors, a cacophony of delighted shrieks, and a whirlwind of energy – welcome to the exhilarating world of a Kids Party! Picture a vibrant room, walls adorned with banners of superheroes, princesses, or perhaps the mysteries of the deep blue sea. Balloons in every hue float around, some playfully shaped like animals or magical creatures, bobbing in the air and playing peek-a-boo amidst streams of giggling children.",
+			"The center of attraction, without a doubt, is the gleaming cake, often a masterpiece inspired by the theme of the day. Whether it's a towering castle, a friendly dragon, or a treasure chest, the eager anticipation in the young eyes surrounding it is palpable. Tables nearby are laden with delightful treats – cupcakes with glittering sprinkles, rainbow-colored fruit skewers, and bowls filled to the brim with crispy chips and gooey dip.",
+			"As music fills the air – tunes that could get even the adults tapping their feet – a magician might step up, pulling rabbits out of hats or making things vanish, much to the wide-eyed wonder of the young audience. Perhaps, in another corner, there's a face painting booth where kids transform into fierce tigers, delicate butterflies, or even their favorite characters.",
+			"Games form the heartbeat of a kids' party. Be it the timeless 'Pass the Parcel', the thrilling 'Musical Chairs', or a treasure hunt that has them running around in joyful chaos, the excitement never dwindles. Winners flaunt their prizes, while others eagerly line up for the next round, determined to claim victory.",
+			"As the day unwinds, and tiny feet grow a tad weary, each child departs with a goody bag, a little treasure trove of trinkets and treats that promise to keep the magic of the day alive just a bit detailser.",
+			"In essence, a kids' party is a celebration of unbridled joy, boundless imagination, and the beautiful innocence of childhood. It's where dreams take flight, and every moment is sprinkled with a little bit of magic."
+		],
 		"price": "BDT 50k",
 		"accomplish": "7"
 	},
@@ -176,16 +156,14 @@
 		"id": "11",
 		"name": "Retirement Party",
 		"image": "https://i.ibb.co/GtNPJ1J/retirement-party.png",
-		"desc": {
-			"short": "Celebrating years of dedication",
-			"long": [
-				"A retirement party is a jubilant celebration of a journey well-traveled, echoing with tales of dedication, passion, and resilience. Imagine a room filled with bursts of hearty laughter, applause, and sentimental tears as colleagues and loved ones come together to honor the retiree’s illustrious career.",
-				"The ambiance often evokes nostalgia. Walls might be adorned with a tapestry of photographs capturing significant milestones, awards, and candid moments, telling the story of years filled with perseverance, achievements, and camaraderie. Tables are often decorated with centerpieces reflecting the retiree's profession or hobbies. Perhaps there's a backdrop for guests to pen down their fondest memories or words of gratitude.",
-				"A highlight of the evening is invariably the speeches. Colleagues, both past and present, regale attendees with anecdotes—some humorous, some touching—of their time with the retiree. The retiree might then take center stage, reflecting upon their career, sharing insights, expressing gratitude, and speaking of future plans—whether it's traveling, taking up a hobby, or simply enjoying the luxury of time.",
-				"The atmosphere is lightened with music, perhaps some classics that resonate with the retiree's prime years, inducing a little dance and merriment. On the culinary front, a sumptuous spread awaits. Dishes might be favorites of the retiree or delicacies marking their years of service. And, of course, a cake, often designed to reflect their profession or passions, stands as a sweet testament to their fruitful career.",
-				"As the night winds down, there's an overwhelming feeling of gratitude. A retirement party isn't just about bidding adieu to one's professional life; it's about celebrating the legacy of an individual who, through their years of service, made an indelible impact. It's a grand salute to the past and a cheerful toast to the adventures that lie ahead."
-			]
-		},
+		"short": "Celebrating years of dedication, it's a new start",
+		"details": [
+			"A retirement party is a jubilant celebration of a journey well-traveled, echoing with tales of dedication, passion, and resilience. Imagine a room filled with bursts of hearty laughter, applause, and sentimental tears as colleagues and loved ones come together to honor the retiree’s illustrious career.",
+			"The ambiance often evokes nostalgia. Walls might be adorned with a tapestry of photographs capturing significant milestones, awards, and candid moments, telling the story of years filled with perseverance, achievements, and camaraderie. Tables are often decorated with centerpieces reflecting the retiree's profession or hobbies. Perhaps there's a backdrop for guests to pen down their fondest memories or words of gratitude.",
+			"A highlight of the evening is invariably the speeches. Colleagues, both past and present, regale attendees with anecdotes—some humorous, some touching—of their time with the retiree. The retiree might then take center stage, reflecting upon their career, sharing insights, expressing gratitude, and speaking of future plans—whether it's traveling, taking up a hobby, or simply enjoying the luxury of time.",
+			"The atmosphere is lightened with music, perhaps some classics that resonate with the retiree's prime years, inducing a little dance and merriment. On the culinary front, a sumptuous spread awaits. Dishes might be favorites of the retiree or delicacies marking their years of service. And, of course, a cake, often designed to reflect their profession or passions, stands as a sweet testament to their fruitful career.",
+			"As the night winds down, there's an overwhelming feeling of gratitude. A retirement party isn't just about bidding adieu to one's professional life; it's about celebrating the legacy of an individual who, through their years of service, made an indelible impact. It's a grand salute to the past and a cheerful toast to the adventures that lie ahead."
+		],
 		"price": "BDT 20k",
 		"accomplish": "5"
 	},
@@ -194,15 +172,13 @@
 		"id": "12",
 		"name": "Charity Event",
 		"image": "https://i.ibb.co/MDx1zDR/charity-event.jpg",
-		"desc": {
-			"short": "Giving back with grace",
-			"long": [
-				"Charity events are gatherings or activities organized with the primary goal of raising funds, awareness, or support for a charitable cause, nonprofit organization, or a specific social or humanitarian mission. These events serve as a platform for individuals, businesses, and communities to come together, contribute to a greater good, and make a positive impact on society. Here's a more detailed description of charity events:",
-				"Charity events are driven by a spirit of giving and philanthropy, where the focus is not solely on personal gain but on benefiting others who are less fortunate or in need. These events can take various forms, including galas, fundraisers, auctions, marathons, benefit concerts, food drives, and more. Each event is tailored to the specific cause it supports and the preferences of its organizers and participants.",
-				"One of the key features of charity events is their ability to mobilize a diverse range of people, from volunteers and donors to sponsors and beneficiaries. They often showcase the power of collective action and compassion, demonstrating how individuals and communities can come together to address pressing issues, whether it's supporting medical research, alleviating poverty, providing disaster relief, or aiding vulnerable populations.",
-				"During charity events, participants have the opportunity to contribute in various ways, such as making monetary donations, volunteering their time and skills, or spreading awareness about the cause through social media and word of mouth. Fundraising is a central component of these events, as the collected funds are typically channeled directly into the charitable organization or project to make a tangible difference."
-			]
-		},
+		"short": "Giving back with grace, everyone deserve it",
+		"details": [
+			"Charity events are gatherings or activities organized with the primary goal of raising funds, awareness, or support for a charitable cause, nonprofit organization, or a specific social or humanitarian mission. These events serve as a platform for individuals, businesses, and communities to come together, contribute to a greater good, and make a positive impact on society. Here's a more detailed description of charity events:",
+			"Charity events are driven by a spirit of giving and philanthropy, where the focus is not solely on personal gain but on benefiting others who are less fortunate or in need. These events can take various forms, including galas, fundraisers, auctions, marathons, benefit concerts, food drives, and more. Each event is tailored to the specific cause it supports and the preferences of its organizers and participants.",
+			"One of the key features of charity events is their ability to mobilize a diverse range of people, from volunteers and donors to sponsors and beneficiaries. They often showcase the power of collective action and compassion, demonstrating how individuals and communities can come together to address pressing issues, whether it's supporting medical research, alleviating poverty, providing disaster relief, or aiding vulnerable populations.",
+			"During charity events, participants have the opportunity to contribute in various ways, such as making monetary donations, volunteering their time and skills, or spreading awareness about the cause through social media and word of mouth. Fundraising is a central component of these events, as the collected funds are typically channeled directly into the charitable organization or project to make a tangible difference."
+		],
 		"price": "BDT 150k",
 		"accomplish": "5"
 	}

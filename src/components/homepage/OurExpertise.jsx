@@ -82,7 +82,7 @@ const OurExpertise = () => {
 					</div>
 				</div>
 
-				<Link to='/service'>
+				<Link to='/service' className='flex justify-center mt-10'>
 					<PrimaryButton title={'Check out our services'} />
 				</Link>
 			</div>

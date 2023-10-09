@@ -1,11 +1,21 @@
-
+import { useLoaderData } from 'react-router-dom'
+import SectionHeading from '../components/common/SectionHeading'
+import EventLists from '../components/ourEvents/EventLists'
 
 const EventsPage = () => {
-    return (
-        <div>
-            <h1>This is the events page</h1>
-        </div>
-    );
-};
+    const eventList = useLoaderData()
+    const headingText = 'If you can dream it, We can plan it'
+    const subHeadingText = 'Our Event Packages'
 
-export default EventsPage;
+	return (
+		<div className='mt-10'>
+			<SectionHeading
+				headingText={headingText}
+				subHeadingText={subHeadingText}
+			/>
+			<EventLists eventList={eventList} />
+		</div>
+	)
+}
+
+export default EventsPage
