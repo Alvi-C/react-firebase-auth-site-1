@@ -11,6 +11,7 @@ import ContactPage from '../pages/ContactPage';
 import LogInPage from '../pages/LogInPage';
 import RegisterPage from '../pages/RegisterPage';
 import EventDetailsPage from "../pages/EventDetailsPage";
+import PrivateRoute from "./PrivateRoute";
 
 
 const MyAppRouter = createBrowserRouter([
@@ -39,16 +40,28 @@ const MyAppRouter = createBrowserRouter([
 			},
 			{
 				path: '/events/:id',
-				element: <EventDetailsPage />,
+				element: (
+					<PrivateRoute>
+						<EventDetailsPage />
+					</PrivateRoute>
+				),
 				loader: () => fetch('/eventList.json'),
 			},
 			{
 				path: '/rentals',
-				element: <RentalPage />,
+				element: (
+					<PrivateRoute>
+						<RentalPage />
+					</PrivateRoute>
+				),
 			},
 			{
 				path: '/community',
-				element: <CommunityPage />,
+				element: (
+					<PrivateRoute>
+						<CommunityPage />
+					</PrivateRoute>
+				),
 			},
 			{
 				path: '/contact',

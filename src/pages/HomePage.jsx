@@ -2,6 +2,7 @@ import ImageSlider from "../components/header/ImageSlider";
 import TopBannerText from "../components/header/TopBannerText";
 import EventPackages from "../components/homepage/EventPackages";
 import OurExpertise from "../components/homepage/OurExpertise";
+import Tesimonial from "../components/homepage/Tesimonial";
 
 
 
@@ -12,6 +13,7 @@ const HomePage = () => {
 				<ImageSlider/>
 				<OurExpertise/>
 				<EventPackages/>
+				<Tesimonial/>
 			</div>
 		)
 };

@@ -3,16 +3,16 @@ import { useState, useEffect } from 'react'
 const ImageSlider = () => {
     const images = [
 			'https://i.ibb.co/p0Sh5Gy/gallery-2.jpg',
-			// 'https://i.ibb.co/k0bJMQ6/gallery-17.jpg',
-			// 'https://i.ibb.co/gzws4Kd/gallery-18.jpg',
-			// 'https://i.ibb.co/2tLjWtB/gallery-12.jpg',
-			// 'https://i.ibb.co/6YQnL1L/gallery-11.jpg',
-			// 'https://i.ibb.co/MM1m6Vb/gallery-5.jpg',
-			// 'https://i.ibb.co/VvMsMjv/gallery-10.jpg',
-			// 'https://i.ibb.co/Ms9hgvJ/gallery-9.jpg',
-			// 'https://i.ibb.co/k4M9ZY5/gallery-7.jpg',
-			// 'https://i.ibb.co/PYVsbpm/gallery-8.jpg',
-			// 'https://i.ibb.co/S0TDMCd/gallery-16.jpg',
+			'https://i.ibb.co/k0bJMQ6/gallery-17.jpg',
+			'https://i.ibb.co/gzws4Kd/gallery-18.jpg',
+			'https://i.ibb.co/2tLjWtB/gallery-12.jpg',
+			'https://i.ibb.co/6YQnL1L/gallery-11.jpg',
+			'https://i.ibb.co/MM1m6Vb/gallery-5.jpg',
+			'https://i.ibb.co/VvMsMjv/gallery-10.jpg',
+			'https://i.ibb.co/Ms9hgvJ/gallery-9.jpg',
+			'https://i.ibb.co/k4M9ZY5/gallery-7.jpg',
+			'https://i.ibb.co/PYVsbpm/gallery-8.jpg',
+			'https://i.ibb.co/S0TDMCd/gallery-16.jpg',
 		]
 
 	const [activeIndex, setActiveIndex] = useState(0)

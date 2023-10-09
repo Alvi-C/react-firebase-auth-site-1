@@ -1,12 +1,30 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+// import auth from '../../services/firebase.config'
 
-import { useState } from 'react'
+
+import { useContext, useState } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
 const NavBar = () => {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+	// const [userName, setUserName] = useState('')
+	// const [userImage, setUserImage] = useState('')
+	const { user, logOutUser } = useContext(AuthContext)
+
 
 	const toggleMobileMenu = () => {
 		setMobileMenuOpen(!mobileMenuOpen)
 	}
+
+	const handleLogout = () => {
+		logOutUser()
+			.then(result => {
+				console.log(result)
+			})
+			.catch(error => {
+				console.log(error)
+			})
+	}
+
 
 	return (
 		<>
@@ -57,7 +75,7 @@ const NavBar = () => {
 								: 'text-sm font-semibold leading-6 text-gray-900'
 						}
 					>
-						Our Events
+						Event Packages
 					</NavLink>
 					<NavLink
 						to='/rentals'
@@ -103,26 +121,51 @@ const NavBar = () => {
 
 				{/* right menu */}
 				<div className='hidden lg:flex lg:gap-x-12 lg:justify-end font-Poppins'>
-					<NavLink
-						to='/login'
-						className={({ isActive }) =>
-							isActive
-								? 'text-sm font-semibold leading-6 text-black bg-yellow-300 px-2'
-								: 'text-sm font-semibold leading-6 text-gray-900'
-						}
-					>
-						Login
-					</NavLink>
-					<NavLink
-						to='/register'
-						className={({ isActive }) =>
-							isActive
-								? 'text-sm font-semibold leading-6 text-black bg-yellow-300 px-2'
-								: 'text-sm font-semibold leading-6 text-gray-900'
-						}
-					>
-						Register
-					</NavLink>
+					{user ? (
+						<div className='flex items-center gap-2'>
+							<div className='flex items-center gap-2'>
+								{user.photoURL === null ? (
+									<img
+										className='h-6 md:16 w-auto rounded-full'
+										src='https://i.ibb.co/ZJ1WC7Q/user-avatar.png'
+										alt='user'
+									/>
+								) : (
+									<img
+										className='h-6 md:16 w-auto rounded-full'
+										src={user.photoURL}
+										alt='spotlight-logo'
+									/>
+								)}
+								{user.displayName === null ? (
+									<p className='text-sm font-semibold leading-6 text-gray-900'>
+										{'Hi'}
+									</p>
+								) : (
+									<p className='text-sm font-semibold leading-6 text-gray-900'>
+										{user.displayName}
+									</p>
+								)}
+							</div>
+							<button
+								onClick={handleLogout}
+								className='text-sm font-semibold leading-6 text-yellow-400 bg-black px-2'
+							>
+								Logout
+							</button>
+						</div>
+					) : (
+						<NavLink
+							to='/login'
+							className={({ isActive }) =>
+								isActive
+									? 'text-sm font-semibold leading-6 text-black bg-yellow-300 px-2'
+									: 'text-sm font-semibold leading-6 text-gray-900'
+							}
+						>
+							Login
+						</NavLink>
+					)}
 				</div>
 				{/* mobile menu to open */}
 				<div className='lg:hidden'>
@@ -233,18 +276,47 @@ const NavBar = () => {
 									</NavLink>
 								</div>
 								<div className='py-6'>
-									<a
-										href='/login'
-										className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-blue-600 hover:bg-blue-900'
-									>
-										Login
-									</a>
-									<a
-										href='/'
-										className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-red-500 hover:bg-red-800'
-									>
-										User
-									</a>
+									{user ? (
+										<div className='flex items-center gap-2'>
+											<div className='flex items-center gap-2'>
+												{user.photoURL === null ? (
+													<img
+														className='h-6 md:16 w-auto rounded-full'
+														src='https://i.ibb.co/ZJ1WC7Q/user-avatar.png'
+														alt='user'
+													/>
+												) : (
+													<img
+														className='h-6 md:16 w-auto rounded-full'
+														src={user.photoURL}
+														alt='spotlight-logo'
+													/>
+												)}
+												{user.displayName === null ? (
+													<p className='text-sm font-semibold leading-6 text-gray-900'>
+														{'Hi'}
+													</p>
+												) : (
+													<p className='text-sm font-semibold leading-6 text-gray-900'>
+														{user.displayName}
+													</p>
+												)}
+											</div>
+											<button
+												onClick={handleLogout}
+												className='text-sm font-semibold leading-6 text-yellow-400 bg-black px-2'
+											>
+												Logout
+											</button>
+										</div>
+									) : (
+										<Link
+											to='/login'
+											className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-blue-600 hover:bg-blue-900'
+										>
+											Login
+										</Link>
+									)}
 								</div>
 							</div>
 						</div>

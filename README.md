@@ -1,8 +1,34 @@
-# React + Vite
+# Social Event Management company
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link:
 
-Currently, two official plugins are available:
+## Project Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technology Stack:
+
+Frontend: React
+Routing: React Router
+Styling: Tailwind CSS with DaisyUI
+Authentication: Firebase Authentication
+State Management: Context API
+Fonts: Google Fonts
+
+### Authentication:
+
+Implemented both Email-Password based authentication and Google Authentication.
+
+### User Experience:
+
+Users can visit the site.
+Users can register for an account.
+Users can log in using their email and password.
+Realistic and meaningful content and information are provided throughout the site to enhance the user experience.
+Private route
+
+## visual effect:
+
+A banner image with a auto slider.
+
+## ui design:
+
+Managed design visual look and feel with consistancy
